@@ -1,0 +1,183 @@
+body{
+    background-color: black; 
+   }
+* {
+  margin: 0;
+  padding: 0; 
+}
+.text{
+   color: white;
+}
+   .background{
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+   margin-bottom: 20px; 
+   }
+   span{
+    position: relative;  
+    display: flex; 
+    max-width: 80vw;
+    margin: auto; 
+    justify-content: space-between;
+    align-items: center; 
+   }
+   .button{
+      padding: 20px; 
+   }
+   .button1{
+    padding: 7px; 
+   }
+   .button2{
+    padding: 7px; 
+   }
+   .hero{
+    height: calc(100% -62px);
+    text-align: center; 
+    position: relative; 
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;  
+   }
+  .black{
+    padding: 8px; 
+    background-color: black;
+   
+   color: white;
+  } 
+  .red{
+    padding: 8px; 
+   
+    
+  }
+  .box{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    max-width: 70vw; 
+    margin: auto; 
+    margin-top: 20px; 
+    
+  }
+  .first{
+    position: relative;
+   
+  }
+  .first img{
+    width: 30vw; 
+    padding: 80px; 
+    position: relative;
+    z-index: 10;  
+  }
+  
+  .img1text{
+    color: white; 
+    padding: 20px; 
+    gap: 30px;
+  }
+  .first video{
+    position: absolute;
+    width: 25vw; 
+   top: 169px;
+   right: 128px; 
+   bottom: 0; 
+  }
+ .faq{
+  justify-content: center;
+  align-items: center;
+  display: flex; 
+  flex-direction: column;
+ 
+ }
+ 
+ .question{
+    height: 40px;
+    width: 80vw;
+    margin-bottom: 10px; 
+  justify-content:left;
+  display: flex;
+  align-items: center; 
+  background-color:grey;
+  
+  cursor: pointer;  
+ }
+ .question:hover{
+    background-color: greenyellow;
+ }
+ .john{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  margin: 30px; 
+ }
+ .boy{
+  margin: 20px; 
+ }
+ .cont{
+   
+  border: 2px solid aqua; 
+  display: grid; 
+   grid-template-columns: 90px 120px ; 
+ }
+ .boxi{
+  border: 2px solid red;
+  
+  height: 20px;
+  width: 55px; 
+ }
+  .one{
+    display: flex; 
+    margin: 40px; 
+    
+    padding: 60px;     }
+    .a{
+      padding: 30px;
+      margin: auto;
+      width: 15vw; 
+    
+      color: white;
+       
+    }
+    .b{
+      padding: 30px;
+      margin: auto;
+      width: 15vw;
+      color: white; 
+       
+    }
+    .c{
+      padding: 30px;
+      margin: auto;
+      width: 15vw; 
+      color: white;
+      
+      
+    }
+    .d{
+      padding: 30px;
+      margin: auto; 
+      width: 15vw;  
+      color: white;
+    }
+   
+   footer ol li {
+  padding: 8px; 
+  text-decoration-style: dashed;
+  text-decoration-color: aqua;
+}
+
+.seperator{
+border-top: 8px solid grey; 
+margin-top: 10px;
+margin-bottom: 10px; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: yellowgreen;
+}
